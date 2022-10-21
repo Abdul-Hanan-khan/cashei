@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cashei">
+    package="com.example.tiktok_tutorial">
    <application
         android:label="cashei"
         android:name="${applicationName}"
