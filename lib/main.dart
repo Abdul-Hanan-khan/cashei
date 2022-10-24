@@ -7,12 +7,13 @@ import 'package:cashei/views/screens/auth/login_screen.dart';
 import 'package:cashei/views/screens/auth/signup_screen.dart';
 
 import 'views/screens/home_screen.dart';
+import 'views/screens/splash_screen.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp().then((value) {
-    Get.put(AuthController());
-  });
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await Firebase.initializeApp().then((value) {
+  //   Get.put(AuthController());
+  // });
   runApp(const MyApp());
 }
 
@@ -27,11 +28,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'TikTok Clone',
-      theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: backgroundColor,
-      ),
-      home: HomeScreen(),
+      // title: 'TikTok Clone',
+      // theme: ThemeData.dark().copyWith(
+      //   scaffoldBackgroundColor: backgroundColor,
+      // ),
+      home: SplashScreen(),
     );
   }
 }
