@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:cashei/constants.dart';
+import 'package:cashei/views/contants/constants.dart';
 import 'package:cashei/models/user.dart';
 
 class ChallengesController extends GetxController {

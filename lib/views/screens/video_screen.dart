@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cashei/constants.dart';
+import 'package:cashei/views/contants/constants.dart';
 import 'package:cashei/controllers/video_controller.dart';
 
 import 'package:cashei/views/widgets/circle_animation.dart';
