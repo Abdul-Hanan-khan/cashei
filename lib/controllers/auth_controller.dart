@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:cashei/constants.dart';
+import 'package:cashei/views/contants/constants.dart';
 import 'package:cashei/models/user.dart' as model;
 import 'package:cashei/views/screens/auth/login_screen.dart';
 import 'package:cashei/views/screens/home_screen.dart';
